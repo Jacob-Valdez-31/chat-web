@@ -7,20 +7,17 @@ import { CardActionArea, CardActions } from "@mui/material";
 const CardOne = () => {
   return (
     <Card className="max-w-[345px]  m-auto mt-2">
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          image="/img/chat-gif.gif"
-          className="h-[400px] border-b"
-        />
-        <CardContent>
-          <h1>Open Chat Room</h1> Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Molestiae sequi enim, reiciendis dicta distinctio
-          labore illum sunt reprehenderit ab cum eum atque deserunt velit porro?
-          Porro consequatur expedita quam iure?
-        </CardContent>
-      </CardActionArea>
-      <CardActions></CardActions>
+      <CardMedia
+        component="img"
+        image="/img/chat-gif.gif"
+        className="h-[400px] border-b"
+      />
+      <CardContent>
+        <h1>Open Chat Room</h1> Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Molestiae sequi enim, reiciendis dicta distinctio
+        labore illum sunt reprehenderit ab cum eum atque deserunt velit porro?
+        Porro consequatur expedita quam iure?
+      </CardContent>
     </Card>
   );
 };
