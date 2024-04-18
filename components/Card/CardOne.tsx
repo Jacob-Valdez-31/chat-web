@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea, CardActions } from "@mui/material";
 
-const Cards = () => {
+const CardOne = () => {
   return (
     <Card className="max-w-[345px]  m-auto mt-2">
       <CardActionArea>
@@ -25,4 +25,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default CardOne;
