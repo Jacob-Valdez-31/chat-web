@@ -23,6 +23,10 @@ const config: Config = {
       "gray-dark": "#273444",
       gray: "#8492a6",
       "gray-light": "#d3dce6",
+      cream: "#ADA49C",
+      black: "#090808",
+      white: "#FFFFFF",
+      altGray: "#5D5C5C",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
