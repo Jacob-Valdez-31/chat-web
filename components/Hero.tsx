@@ -53,7 +53,7 @@ const Hero = () => {
             Hello! Welcome to Chat Not GPT.{" "}
           </h1>
           <p className="flex justify-center">Bellow You will have chance to:</p>
-          <div className="flex justify-center">{currentText}</div>
+          <div className="flex justify-center text-orange">{currentText}</div>
         </div>
       ) : (
         <div className="mt-[100px] flex items-center justify-center">
@@ -61,7 +61,7 @@ const Hero = () => {
             <div className="md:ml-[100px] lg:ml-[-100px] ">
               <h1>Hello! Welcome to Chat Not GPT.</h1>
               <p>Below You will have a chance to:</p>
-              <div>{currentText}</div>
+              <div className="text-orange">{currentText}</div>
             </div>
             <img
               src="/img/programmer-gif.gif"
