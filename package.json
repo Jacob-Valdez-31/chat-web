@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.15",
+    "@nextui-org/card": "^2.0.26",
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.5",
     "imagesloaded": "^5.0.0",
