@@ -28,7 +28,7 @@ const navbar = () => {
               <Nav.Link href="#features" className="text-white ">
                 How it works
               </Nav.Link>
-              <Nav.Link href="/test" className="text-white">
+              <Nav.Link href="/about" className="text-white">
                 About Me
               </Nav.Link>
             </Nav>
@@ -37,7 +37,7 @@ const navbar = () => {
               <Nav.Link href="#features" className=" text-white">
                 How it works
               </Nav.Link>
-              <Nav.Link href="/test" className="text-white">
+              <Nav.Link href="/about" className="text-white">
                 About Me
               </Nav.Link>
             </Nav>
