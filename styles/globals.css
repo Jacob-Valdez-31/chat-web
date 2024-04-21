@@ -1,3 +1,103 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-skills {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress {
+  width: 50%;
+}
+.my-skills .skills h2 {
+  margin: 35px 0 20px 50px;
+  color: #e84c3d;
+}
+.my-skills .skills p {
+  margin: 0px 0px 10px 40px;
+  line-height: 1.6;
+  color: #666;
+}
+.my-skills .skills p:last-of-typ {
+  margin-top: 30px;
+}
+.my-skills .skills button {
+  background: none;
+  border: 2px solid #e84c3d;
+  padding: 10px 30px;
+  color: #e84c3d;
+  margin-left: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  -webkit-transition: margin 1s ease;
+  -moz-transition: margin 1s ease;
+  -o-transition: margin 1s ease;
+  -ms-transition: margin 1s ease;
+  transition: margin 1s ease;
+}
+.my-skills .skills button:hover {
+  color: #fff;
+  background: #e84c3d;
+  cursor: pointer;
+  margin-left: -1px;
+}
+.my-skills .progress .tec {
+  margin-left: 50px;
+}
+
+.my-skills .progress .tec h3 {
+  color: #e84c3d;
+}
+.my-skills .progress .tec div {
+  background-color: #ddd;
+  height: 8px;
+}
+.my-skills .progress .tec div span {
+  background-color: #e84c3d;
+  height: 8px;
+  display: block;
+  line-height: 25px;
+  text-align: right;
+}
+
+.resume {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.resume h2 {
+  color: #e84c3d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.resume p {
+  line-height: 1.6;
+  color: #666;
+  padding: 0 40px;
+  font-weight: bold;
+}
+
+.resume button {
+  background: none;
+  border: 2px solid #e84c3d;
+  padding: 10px 30px;
+  color: #e84c3d;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  -webkit-transition: margin 1s ease;
+  -moz-transition: margin 1s ease;
+  -o-transition: margin 1s ease;
+  -ms-transition: margin 1s ease;
+  transition: margin 1s ease;
+}
+.resume button:hover {
+  color: #fff;
+  background: #e84c3d;
+  cursor: pointer;
+  margin-top: -2px;
+}
