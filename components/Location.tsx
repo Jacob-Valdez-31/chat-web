@@ -46,7 +46,7 @@ const Locations = () => {
           <img
             src="/img/conway.webp"
             alt="Jacob Valdez"
-            className="w-full h-auto"
+            className="w-full h-auto "
           />
         </div>
       </div>
