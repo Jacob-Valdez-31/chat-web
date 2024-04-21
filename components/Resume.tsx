@@ -2,7 +2,7 @@ const Resume = () => {
   return (
     <div className="resume">
       <div className="container">
-        <h2 id="3">Resume</h2>
+        <h2>Resume</h2>
         <p>
           Loren ipsum dolor site amet,ea domain until epicuri iudicabiit nam ,
           te usu virtute placerat. purto burte disputando cu est, Loren ipsum
