@@ -27,6 +27,7 @@ const config: Config = {
       black: "#090808",
       white: "#FFFFFF",
       altGray: "#5D5C5C",
+      lightGrey: "#4a5162;",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

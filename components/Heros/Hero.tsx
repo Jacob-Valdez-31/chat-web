@@ -52,7 +52,9 @@ const Hero = () => {
           <h1 className="flex justify-center">
             Hello! Welcome to Chat Not GPT.{" "}
           </h1>
-          <p className="flex justify-center">Bellow You will have chance to:</p>
+          <p className="flex justify-center">
+            Below you will have the chance to:
+          </p>
           <div className="flex justify-center text-orange">{currentText}</div>
         </div>
       ) : (
