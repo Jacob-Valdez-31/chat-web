@@ -25,7 +25,7 @@ const navbar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           {isOpen ? (
             <Nav className="min-w-full flex items-end justify-end">
-              <Nav.Link href="#features" className="text-white ">
+              <Nav.Link href="/how-it-works" className="text-white ">
                 How it works
               </Nav.Link>
               <Nav.Link href="/about" className="text-white">
@@ -34,7 +34,7 @@ const navbar = () => {
             </Nav>
           ) : (
             <Nav className="">
-              <Nav.Link href="#features" className=" text-white">
+              <Nav.Link href="/how-it-works" className=" text-white">
                 How it works
               </Nav.Link>
               <Nav.Link href="/about" className="text-white">
