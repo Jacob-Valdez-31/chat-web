@@ -5,17 +5,15 @@ const About = () => {
     <div>
       <div className="bg-white py-6">
         <div className="max-w-7xl mx-auto grid grid-cols-2 gap-4 px-4 sm:px-6 lg:px-8 ">
-          <div>
+          <div className="lg:h-[390px] lg:w-[290px] lg:m-auto ">
             <img
               src="/img/jacob_hannah.webp"
               alt="Jacob Valdez"
-              className="w-full h-auto "
+              className="w-full h-full "
             />
           </div>
-          <div className=" ">
-            <h1 className="text-2xl font-bold " id="1">
-              About Me
-            </h1>
+          <div className="m-auto ">
+            <h1 className="text-2xl font-bold ">About Me</h1>
             <p>
               Good to see you've made it this far! My name is Jacob Valdez and
               next to me is my beautiful wife Hannah. We recently just got
