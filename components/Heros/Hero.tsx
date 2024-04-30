@@ -16,7 +16,7 @@ const Hero = () => {
   const words = [
     "Chat with friends!",
     "Create new friendships!",
-    "Explore different languages!",
+    "Create private rooms!",
   ];
 
   useEffect(() => {
